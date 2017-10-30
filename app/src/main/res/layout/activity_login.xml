@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/login_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:text="clean plurals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cleanplurals"
+            android:visibility="gone" />
+
+        <TextView
+            android:text="@string/choose_user"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp" />
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/horz_list_view"
+            android:id="@+id/user_horz_list" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_controls_area"
+            android:visibility="gone"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:text="@string/change_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_user_link"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:clickable="true"
+                android:textColor="@android:color/holo_blue_dark"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp" />
+
+            <TextView
+                android:text="@string/delete_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/delete_user_link"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:textColor="@android:color/holo_blue_dark"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_new_user_area"
+            android:background="#f5f5f5"
+            android:layout_margin="6dp"
+            android:padding="3dp"
+            android:gravity="center_horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords|textPersonName"
+                android:ems="10"
+                android:id="@+id/username_input"
+                android:layout_marginTop="16dp"
+                android:hint="@string/name"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <TextView
+                    android:text="@string/avatar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:id="@+id/user_avatar_spinner"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <Button
+                android:text="@string/add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_added_button"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="@string/update_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_change_button"
+                android:visibility="gone"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/steps2and3"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="@string/choose_subject"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="24sp" />
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/horz_list_view"
+                android:id="@+id/subject_horz_list" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject_desc"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:text="@string/start_lab"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="24dp" />
+
+            <Button
+                android:text="@string/go"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/login_button" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="6dp"
+        android:background="#eeeeff"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="1dp"
+        android:paddingTop="1dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/level"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/level_desc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="6dp"
+        android:background="#eeeeff"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="1dp"
+        android:paddingTop="1dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="3dp">
+
+        <TextView
+            android:text="@string/remaining"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp" />
+
+        <TextView
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/correct"
+            android:textSize="22sp"
+            android:gravity="center_horizontal"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="6dp"
+        android:background="#eeeeff"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="1dp"
+        android:paddingTop="1dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="3dp"
+        android:id="@+id/score_level_percent_area">
+
+        <TextView
+            android:text="@string/level_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp" />
+
+        <TextView
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/score"
+            android:textSize="22sp"
+            android:gravity="center_horizontal"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+
+</merge>

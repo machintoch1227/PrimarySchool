@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The levels are defined in Levels.java.  These are the strings for translation. -->
+
+    <string name="group_m">Math</string>
+    <string name="group_sc">Science</string>
+    <string name="group_tm">Time &amp; Money</string>
+    <string name="group_la">Language Arts</string>
+    <string name="group_mu">Music</string>
+    <string name="group_ar">Art</string>
+
+    <color name="group_color_m">#a86486fd</color>
+    <color name="group_color_sc">#aaaaffaa</color>
+    <color name="group_color_tm">#aaf9aaff</color>
+    <color name="group_color_la">#aafc767b</color>
+    <color name="group_color_mu">#aaffff77</color>
+    <color name="group_color_ar">#aaff975f</color>
+
+    <string name="subject_m1_code">M1</string>
+    <string name="subject_m1_name">Math +-25</string>
+    <string name="subject_m1_desc">Plus and Minus. Numbers up to 25.</string>
+
+    <string name="subject_m2_code">M2</string>
+    <string name="subject_m2_name">Math ×÷12</string>
+    <string name="subject_m2_desc">Times and Divide. Numbers up to 12.</string>
+
+    <string name="subject_m3_code">M3</string>
+    <string name="subject_m3_name">-Math +-25</string>
+    <string name="subject_m3_desc">Plus and Minus. Numbers -25 to 25.</string>
+
+    <string name="subject_m4_code">M4</string>
+    <string name="subject_m4_name">-Math ×÷12</string>
+    <string name="subject_m4_desc">Times and Divide. Numbers -12 to 12.</string>
+
+    <string name="subject_m5_code">M5</string>
+    <string name="subject_m5_name">Lotta math</string>
+    <string name="subject_m5_desc">Everything!</string>
+
+    <string name="subject_m6_code">M-S1</string>
+    <string name="subject_m6_name">Sorting 0–9</string>
+    <string name="subject_m6_desc">Sorting 1 digit numbers</string>
+
+    <string name="subject_m7_code">M-S2</string>
+    <string name="subject_m7_name">Sorting 0–99</string>
+    <string name="subject_m7_desc">Sorting 2 digit numbers</string>
+
+    <string name="subject_m8_code">M-S3</string>
+    <string name="subject_m8_name">Sorting 0–999</string>
+    <string name="subject_m8_desc">Sorting 3 digit numbers</string>
+
+    <string name="subject_m9_code">M-S4</string>
+    <string name="subject_m9_name">Sorting big</string>
+    <string name="subject_m9_desc">Sorting more three digit numbers.</string>
+
+    <string name="subject_t1_code">TM-T1</string>
+    <string name="subject_t1_name">Clocks 1</string>
+    <string name="subject_t1_desc">Telling time on analog clocks</string>
+
+    <string name="subject_t2_code">TM-T2</string>
+    <string name="subject_t2_name">Clocks 2</string>
+    <string name="subject_t2_desc">Telling fuzzy time on analog clocks</string>
+
+    <string name="subject_sp1_code">LA-Sp1</string>
+    <string name="subject_sp1_name">Spelling 1–6</string>
+    <string name="subject_sp1_desc">Language Arts: spelling words 1 to 5 letters long</string>
+
+    <string name="subject_sp2_code">LA-Sp2</string>
+    <string name="subject_sp2_name">Spelling 6–8</string>
+    <string name="subject_sp2_desc">Language Arts: spelling words 6 to 8 letters long</string>
+
+    <string name="subject_sp3_code">LA-Sp3</string>
+    <string name="subject_sp3_name">Spelling 9+</string>
+    <string name="subject_sp3_desc">Language Arts: spelling words 9+ letters long</string>
+
+    <string name="subject_eng1_code">LA-Pl1</string>
+    <string name="subject_eng1_name">Plurals 1</string>
+    <string name="subject_eng1_desc">Language Arts: plurals 1</string>
+
+    <string name="subject_eng2_code">LA-Pl2</string>
+    <string name="subject_eng2_name">Plurals 2</string>
+    <string name="subject_eng2_desc">Language Arts: plurals 2</string>
+
+
+</resources>
